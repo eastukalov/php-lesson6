@@ -25,11 +25,8 @@
    		}	
   		
    		if (!$check) {
-   			?>
-   			<script type="text/javascript">
-    			location.href="admin.php?err=0";
-    		</script>
-    		<?php exit() ;
+          ?> <style type="text/css"> h2, input {display:none;}</style><?php
+   			  echo "<p>Ошибка: не загружен список тестов</p>";
    		}
 
   ?>
